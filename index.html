@@ -17,32 +17,44 @@
     <!-- header: header top - header bottom -->
     <header>
         <!-- header top-->
-        <div class="container">
-            Barra di navigazione
+        <nav class="headtop-container flex-sb">
             <!-- nav lato sinistro: logo + link link link -->
-            <div>nav-sx</div>
+            <ul class="navbar-sx flex-sb">
+                <li><img id="logo" src="img/logo-small.png"></li>
+                <li><a href="#" target="_blank">Perchè Dropbox</a></li>
+                <li><a href="#" target="_blank">Funzioni</a></li>
+                <li><a href="#" target="_blank">Piani e prezzi</a></li>
+            </ul>
             <!-- /nav lato sinistro: logo + link link link -->
-            <!-- nav lato destro: link link link + logo -->
-            <div>nav-dx</div>
-            <!-- /nav lato destro: link link link + logo -->
-        </div>
+            <!-- nav lato destro: link link link + bottone -->
+            <ul class="navbar-dx flex-sb">
+                <li><a href="#" target="_blank">Support</a></li>
+                <li><a href="#" target="_blank">Contatta l'ufficio vendite</a></li>
+                <li><a href="#" target="_blank">Accedi</a></li>
+                <li><button type="button" class="btn">Inizia</li>
+            </ul>
+            <!-- /nav lato destro: link link link + bottone -->
+        </nav>
         <!-- /header top-->
         <!-- header bottom -->
-        <div>
-            Jumbotron
-            <!-- box titolo h1 -->
-            <div>titolo h1</div>
-            <!-- / box titolo h1 -->
-            <!-- box: testo + foto -->
-            <div> box colonne
-                <!-- box: testo -->
-                <div>col-1 testo</div>
-                <!-- /box: testo -->
-                <!-- box: foto -->
-                <div>col-2 foto</div>
-                <!-- /box: foto-->
+        <div class="jumbotron">
+            <div class="main-container">
+                <!-- box titolo h1 -->
+                <div>
+                    <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+                </div>
+                <!-- / box titolo h1 -->
+                <!-- box: testo + foto -->
+                <div class="box-col flex-n">
+                    <!-- box: testo -->
+                    <div class="col-small">small</div>
+                    <!-- /box: testo -->
+                    <!-- box: foto -->
+                    <div class="col-big">big</div>
+                    <!-- /box: foto-->
+                </div>
             </div>
-            <!-- box: testo + foto -->
+            <!-- /box: testo + foto -->
         </div>
         <!-- header bottom -->
     </header>
@@ -81,7 +93,7 @@
     <!-- /main: 9 sezioni -->
     <!-- footer: foot top - foot bottom -->
     <footer>
-        <div class="container-footer"
+        <div class="foot-container">
         <!-- foot top -->
         <div>Navigazione menu footers
             <!-- foot menu col 1 -->
