@@ -170,6 +170,10 @@ body.debug {
     background-color: blueviolet;
     border: 2px dashed white;
 }
+
+.debug footer .foot-container.flex-n div.foot-col {
+    background-color: #61072B;
+}
 /*
 --------------
 Header--------
@@ -323,9 +327,10 @@ div.info-plane {
 li.flex-n > span {
     padding-left: 7px;
 }
-#piano-business .bottom-col > hr {
+.bottom-col > hr {
     margin-bottom: 40px;
     width: 20%;
+
 }
 .btn-shop {
     color: var(--bg-color2);
@@ -455,3 +460,46 @@ main section#questions {
 Footer--------
 --------------
 */
+footer {
+    background-color: var(--bg-color6);
+}
+footer div.flex-n{
+    align-items: flex-start;
+    gap: 50px;
+    
+}
+
+footer .foot-container.flex-n div.foot-col {
+    width: calc(( 100% - 200px) / 5);
+    color: white;
+
+}
+
+footer #foot-container .foot-col {
+    all: unset;
+    display: inline-block;
+    color: var(--bg-color5);
+}
+
+footer .foot-container .foot-col > a.btn-footer {
+    all: unset;
+    font-weight: lighter;
+    font-size: 12px;
+    display: block;
+}
+
+footer > hr {
+    width: 120px;
+}
+
+footer .foot-container .foot-col > h3 {
+    padding-bottom: 30px;
+}
+
+footer .foot-container .foot-col > a.btn-footer {
+    padding-bottom: 20px;
+}
+
+footer .foot-container.flex-n {
+    padding: 100px 0 120px;
+}
