@@ -409,6 +409,30 @@ main .col1.text:last-child {
 #clients .secondarymain-container .col-big > h2 {
     margin-bottom: 75px;
 }
+
+/*SECTION BRANDS*/
+
+/*SECTION FREE*/
+#free {
+    background-color: var(--bg-color1);
+    padding: 50px 0;
+}
+#free .col1 .col-small {
+    text-align: end;
+ }
+
+#free .secondarymain-container .flex-n {
+    align-items: flex-start;
+}
+ #free .secondarymain-container .flex-n div.col-small {
+    width: 40%;
+
+}
+
+#free .secondarymain-container .flex-n div.col-big {
+    width: 60%;
+    text-align: end;
+}
 /*
 --------------
 Footer--------
