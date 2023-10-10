@@ -166,7 +166,10 @@ body.debug {
     background-color: aliceblue;
 }
 
-
+.debug #business-tools .item-tool {
+    background-color: blueviolet;
+    border: 2px dashed white;
+}
 /*
 --------------
 Header--------
@@ -355,6 +358,7 @@ main .col1.text:last-child {
  }
 
 /*SECTION PARTENER*/ 
+
 #partner .col-big {
     width: 600px;
 }
@@ -368,7 +372,7 @@ main .col1.text:last-child {
 }
 
 #partner div.secondarymain-container{
-    padding: 145px 0;
+    padding: 145px 0 150px;
 }
 
 #partner .secondarymain-container .col-small a.btn.btn-secondary {
@@ -380,6 +384,15 @@ main .col1.text:last-child {
 
 #partner .secondarymain-container .flex-n .col-small{
     padding: 60px 50px 0;
+}
+
+/*SECTION BUSINESS PLUS*/ 
+#business-tools .secondarymain-container .flex-n {
+    flex-wrap: wrap;
+    gap: 55px;
+}
+#business-tools .flex-n div.item-tool {
+    width: calc(( 100% - 110px ) / 3);
 }
 /*
 --------------
