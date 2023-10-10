@@ -239,9 +239,10 @@ main .col-small .icon {
     margin: 80px 0 23px;
 }
 
-main span.text,
+main #piano-business span.text,
 #jumbotron a.btn {
-    margin-top: 35px;
+    margin: 35px 0 50px;
+
 }
 
 
@@ -322,7 +323,7 @@ div.info-plane {
 li.flex-n > span {
     padding-left: 7px;
 }
-hr {
+#piano-business .bottom-col > hr {
     margin-bottom: 40px;
     width: 20%;
 }
@@ -432,6 +433,18 @@ main .col1.text:last-child {
 #free .secondarymain-container .flex-n div.col-big {
     width: 60%;
     text-align: end;
+}
+
+/*SECTION QUESTIONS*/
+
+#questions .secondarymain-container h2 {
+    padding: 160px 0 75px;
+}
+
+#questions .secondarymain-container div.flex-sb {
+    height: 100px;
+    align-items: center;
+    padding-right: 40px;
 }
 /*
 --------------
