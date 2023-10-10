@@ -367,8 +367,8 @@ main .col1.text:last-child {
     padding-top: 20px;
 }
 
-#partner .secondarymain-container .col-small {
-    padding: 60px 50px 0;
+#partner div.secondarymain-container{
+    padding: 145px 0;
 }
 
 #partner .secondarymain-container .col-small a.btn.btn-secondary {
@@ -376,6 +376,10 @@ main .col1.text:last-child {
     border: 1px solid var(--bg-color6);
     color: var(--bg-color6);
     margin-top: 35px;
+}
+
+#partner .secondarymain-container .flex-n .col-small{
+    padding: 60px 50px 0;
 }
 /*
 --------------
