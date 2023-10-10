@@ -267,7 +267,7 @@ div.secondarymain-container div.top-col {
 }
 
 div.secondarymain-container div.bottom-col {
-    padding: 40px 40px 50px;
+    padding: 40px 40px 35px;
 }
 
 div.secondarymain-container .bottom-col h3 {
@@ -353,6 +353,30 @@ main .col1.text:last-child {
 .intestation-invoice .col1:last-child .bottom-col .col-big {
     padding-right: 150px;
  }
+
+/*SECTION PARTENER*/ 
+#partner .col-big {
+    width: 600px;
+}
+
+#partner .col-small {
+    flex-grow: 2;
+}
+
+#partner .col-small > p {
+    padding-top: 20px;
+}
+
+#partner .secondarymain-container .col-small {
+    padding: 60px 50px 0;
+}
+
+#partner .secondarymain-container .col-small a.btn.btn-secondary {
+    background-color: var(--bg-color5);
+    border: 1px solid var(--bg-color6);
+    color: var(--bg-color6);
+    margin-top: 35px;
+}
 /*
 --------------
 Footer--------
