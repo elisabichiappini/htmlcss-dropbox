@@ -437,8 +437,12 @@ main .col1.text:last-child {
 
 /*SECTION QUESTIONS*/
 
+main section#questions {
+    padding: 160px 0;
+
+}
 #questions .secondarymain-container h2 {
-    padding: 160px 0 75px;
+    padding-bottom: 75px;
 }
 
 #questions .secondarymain-container div.flex-sb {
