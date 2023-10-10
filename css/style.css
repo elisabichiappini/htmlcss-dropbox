@@ -387,12 +387,27 @@ main .col1.text:last-child {
 }
 
 /*SECTION BUSINESS PLUS*/ 
+
 #business-tools .secondarymain-container .flex-n {
     flex-wrap: wrap;
     gap: 55px;
 }
 #business-tools .flex-n div.item-tool {
     width: calc(( 100% - 110px ) / 3);
+}
+
+/*SECTION BUSINESS PLUS*/
+
+#clients .secondarymain-container div.col-big {
+    width: 50%;
+}
+
+#clients .secondarymain-container {
+    padding: 210px 0 150px;
+}
+
+#clients .secondarymain-container .col-big > h2 {
+    margin-bottom: 75px;
 }
 /*
 --------------
