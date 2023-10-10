@@ -16,88 +16,103 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- /collegamento css fogli di stile-->
 </head>
-<body>
+<body class="debug">
     <!-- header: header top - header bottom -->
-    <header>
+    <header id="head-container">
         <!-- header top-->
-        <nav class="topbar-container flex-sb">
+        <nav class="flex-sb">
             <!-- nav lato sinistro: logo + link link link -->
             <ul class="navbar-sx flex-sb">
-                <li><img id="logo" src="img/logo-small.png" alt="logo_Dropbox"></li>
-                <li><a href="#" target="_blank" alt="Perchè Dropbox">Perchè Dropbox</a></li>
-                <li><a href="#" target="_blank" alt="Funzioni">Funzioni</a></li>
-                <li><a href="#" target="_blank" alt="Piani e prezzi">Piani e prezzi</a></li>
+                <li>
+                    <a href="#" alt="Home Dropbox">
+                        <img id="logo" src="img/logo-small.png" alt="logo_Dropbox">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" alt="Perchè Dropbox">Perchè Dropbox</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" alt="Funzioni">Funzioni</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" alt="Piani e prezzi">Piani e prezzi</a>
+                </li>
             </ul>
             <!-- /nav lato sinistro: logo + link link link -->
             <!-- nav lato destro: link link link + bottone -->
             <ul class="navbar-dx flex-sb">
-                <li><a href="#" target="_blank">Support</a></li>
-                <li><a href="#" target="_blank">Contatta l'ufficio vendite</a></li>
-                <li><a href="#" target="_blank">Accedi</a></li>
-                <li><a href="#" target="_blank" class="btn">Inizia</a></li>
+                <li>
+                    <a href="#" target="_blank">Support</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">Contatta l'ufficio vendite</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank">Accedi</a>
+                </li>
+                <li>
+                    <a href="#" target="_blank" class="btn">Inizia</a>
+                </li>
             </ul>
             <!-- /nav lato destro: link link link + bottone -->
         </nav>
         <!-- /header top-->
-        <!-- header bottom -->
-        <div class="jumbotron">
-            <div class="white"></div>
-            <div class="main-container">
-                <!-- box titolo h1 -->
-                <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
-                <!-- / box titolo h1 -->
-                <!-- box: testo + foto -->
-                <div class="box-col flex-n">
-                    <!-- box: testo -->
-                    <div class="col-small">
-                        <p>Finalmente tutti i tuoi sentimenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicure: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
-                        <a href="#" target="_blank" class="btn">Inizia la prova gratuita</a>
-                        <span class="text">Annulla in qualsiasi momento</span>
-                        <div class="icon"><i class="fa-solid fa-arrow-down"></i></div>
-                    </div>
-                    <!-- /box: testo -->
-                    <!-- box: foto -->
-                    <div class="col-big">
-                        <img class="img" src="/img/jumbo.png" alt="Proposta per il cliente">
-                    </div>
-                    <!-- /box: foto-->
-                </div>
-            </div>
-            <!-- /box: testo + foto -->
-        </div>
-        <!-- header bottom -->
     </header>
     <!-- header: header top - header bottom -->
     <!-- main: 9 sezioni -->
     <main>
-        Main
-        <!-- sezione 1 -->
-        <div>1</div>
-        <!-- /sezione 1 -->
-        <!-- sezione 2 -->
-        <div>2</div>
-        <!-- /sezione 2 -->
-        <!-- sezione 3 -->
-        <div>3</div>
-        <!-- /sezione 3 -->
-        <!-- sezione 4 -->
-        <div>4</div>
-        <!-- /sezione 4 -->
-        <!-- sezione 5 -->
-        <div>5</div>
-        <!-- /sezione 5 -->
-        <!-- sezione 6 -->
-        <div>6</div>
-        <!-- /sezione 6 -->
-        <!-- sezione 7 -->
-        <div>7</div>
-        <!-- /sezione 7 -->
-        <!-- sezione 8 -->
-        <div>8</div>
-        <!-- /sezione 8 -->
-        <!-- sezione 9 -->
-        <div>9</div>
-        <!-- /sezione 9 -->
+        <div class="main-container">
+            <!-- sezione 1 -->
+            <div class="jumbotron">
+                <div class="main-container">
+                    <!-- box titolo h1 -->
+                    <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+                    <!-- / box titolo h1 -->
+                    <!-- box: testo + foto -->
+                    <div class="box-col flex-n">
+                        <!-- box: testo -->
+                        <div class="col-small">
+                            <p>Finalmente tutti i tuoi sentimenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicure: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+                            <a href="#" target="_blank" class="btn">Inizia la prova gratuita</a>
+                            <span class="text">Annulla in qualsiasi momento</span>
+                            <div class="icon"><i class="fa-solid fa-arrow-down"></i></div>
+                        </div>
+                        <!-- /box: testo -->
+                        <!-- box: foto -->
+                        <div class="col-big">
+                            <img class="img" src="/img/jumbo.png" alt="Proposta per il cliente">
+                        </div>
+                        <!-- /box: foto-->
+                    </div>
+                </div>
+                <!-- /box: testo + foto -->
+            </div>
+                <!-- /sezione 1 -->
+            <!-- sezione 2 -->
+            <div>2</div>
+            <!-- /sezione 2 -->
+            <!-- sezione 3 -->
+            <div>3</div>
+            <!-- /sezione 3 -->
+            <!-- sezione 4 -->
+            <div>4</div>
+            <!-- /sezione 4 -->
+            <!-- sezione 5 -->
+            <div>5</div>
+            <!-- /sezione 5 -->
+            <!-- sezione 6 -->
+            <div>6</div>
+            <!-- /sezione 6 -->
+            <!-- sezione 7 -->
+            <div>7</div>
+            <!-- /sezione 7 -->
+            <!-- sezione 8 -->
+            <div>8</div>
+            <!-- /sezione 8 -->
+            <!-- sezione 9 -->
+            <div>9</div>
+            <!-- /sezione 9 -->
+        </div>
     </main>
     <!-- /main: 9 sezioni -->
     <!-- footer: foot top - foot bottom -->
