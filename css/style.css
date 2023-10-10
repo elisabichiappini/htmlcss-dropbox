@@ -93,8 +93,14 @@ body {
     display: block;
 }
 
-.main-container {
+.main-container,
+.foot-container {
     max-width: 1200px;
+    margin: 0 auto;
+}
+
+.secondarymain-container {
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -113,12 +119,13 @@ Debug---------
     background-color: pink;
 }
 
-.debug .main-container {
+.debug .main-container,
+.debug .foot-container {
     background-color: rgb(219, 219, 120);
     border: 2px dashed black;
 }
 
-.debug .foot-container {
+.debug .secondarymain-container {
     background-color: rgb(112, 183, 216);
     border: 2px dashed black;
 }
@@ -152,6 +159,9 @@ body.debug {
     border: 2px dashed black;
 }
 
+.debug .flex-sb div.col1{
+    background-color: aliceblue;
+}
 /*
 --------------
 Header--------
@@ -200,6 +210,8 @@ header li img {
 Main----------
 --------------
 */
+
+/* to do */
 #jumbotron {
     background-color: #b5d0e7;
     margin-top: 0;
@@ -223,7 +235,15 @@ main span.text,
 #jumbotron a.btn {
     margin-top: 35px;
 }
+/* /to do */
 
+main .intestation-invoice {
+    gap: 50px;
+}
+
+div.col1{
+    width: calc((100% - 100px)/3);
+}
 /*
 --------------
 Footer--------
