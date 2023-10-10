@@ -141,7 +141,6 @@ body.debug {
 .debug ul.navbar-sx,
 .debug ul.navbar-dx {
     background-color: #9cc1a2;
-    border: 2px dashed white;
 }
 
 .debug #jumbotron {
@@ -350,7 +349,6 @@ main .col1.text:last-child {
 
 .intestation-invoice .col1:last-child .bottom-col .col-small {
    text-align: end;
-   width: 100%;
 }
 .intestation-invoice .col1:last-child .bottom-col .col-big {
     padding-right: 150px;
