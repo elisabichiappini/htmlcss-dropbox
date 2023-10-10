@@ -268,7 +268,7 @@ div.secondarymain-container div.top-col {
 }
 
 div.secondarymain-container div.bottom-col {
-    padding: 40px 35px 50px;
+    padding: 40px 40px 50px;
 }
 
 div.secondarymain-container .bottom-col h3 {
@@ -290,21 +290,31 @@ div.secondarymain-container .bottom-col ul li {
 }
 
 
-div.secondarymain-container .bottom-col .text {
+section #piano-business .secondarymain-container .bottom-col .text {
     margin: 20px 0 40px;
 }
 
 div.secondarymain-container .bottom-col span.text-icon {
     line-height: 100%;
     vertical-align: middle;
+    width: 100%;
 }
 
 div.info-plane {
-    height: 300px;
+    height: 320px;
 }
+
+
 .details-fleg li.flex-n > i{
     color: var(--bg-color2);
     align-items: flex-start;
+}
+
+.bottom-col > a.btn {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    padding: 15px 0;
 }
 
 li.flex-n > span {
@@ -325,6 +335,26 @@ div.intestation-invoice > .col1 {
 div.intestation-invoice .col1 > .top-col {
     border-bottom: 1px solid var(--bg-color4);
 }
+
+.intestation-invoice.flex-n {
+    flex-wrap: wrap;
+}
+
+.intestation-invoice.flex-n .col1.text:last-child {
+    flex-grow: 2;
+}
+
+main .col1.text:last-child {
+    flex-grow: 2;
+}
+
+.intestation-invoice .col1:last-child .bottom-col .col-small {
+   text-align: end;
+   width: 100%;
+}
+.intestation-invoice .col1:last-child .bottom-col .col-big {
+    padding-right: 150px;
+ }
 /*
 --------------
 Footer--------
