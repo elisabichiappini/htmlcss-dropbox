@@ -38,7 +38,6 @@ Typography----
 
 body {
     font-family: 'Open Sans', sans-serif;
-  
 }
 
 h1 {
@@ -55,12 +54,13 @@ h3 {
     font-size: 17px;
 }
 
-h4
- {
+h4 {
     font-size: 12px;
 }
 
-p, a, .text {
+p, 
+a, 
+.text {
     font-size: 12px;
 }
 
@@ -174,6 +174,12 @@ body.debug {
 .debug footer .foot-container.flex-n div.foot-col {
     background-color: #61072B;
 }
+
+.debug footer div.language .flex-n {
+    background-color: #63d275;
+    border: 2px dashed white;
+}
+
 /*
 --------------
 Header--------
@@ -190,6 +196,7 @@ header {
     left: 0;
     background-color: var(--bg-color5);
 }
+
 .flex-sb {
     display: flex;
     justify-content: space-between;
@@ -209,7 +216,6 @@ ul > li {
     padding: 0 20px 0 0;
 }
 
-
 header li a,
 header li img {
     color: var(--bg-color6);
@@ -217,6 +223,7 @@ header li img {
     display: block;
     padding: 0 20px;
 }
+
 /*
 --------------
 Main----------
@@ -246,9 +253,7 @@ main .col-small .icon {
 main #piano-business span.text,
 #jumbotron a.btn {
     margin: 35px 0 50px;
-
 }
-
 
 #jumbotron .main-container{
     position: relative;
@@ -296,7 +301,6 @@ div.secondarymain-container .bottom-col ul li {
     padding-top: 20px;
 }
 
-
 section #piano-business .secondarymain-container .bottom-col .text {
     margin: 20px 0 40px;
 }
@@ -310,7 +314,6 @@ div.secondarymain-container .bottom-col span.text-icon {
 div.info-plane {
     height: 320px;
 }
-
 
 .details-fleg li.flex-n > i{
     color: var(--bg-color2);
@@ -327,11 +330,12 @@ div.info-plane {
 li.flex-n > span {
     padding-left: 7px;
 }
+
 .bottom-col > hr {
     margin-bottom: 40px;
     width: 20%;
-
 }
+
 .btn-shop {
     color: var(--bg-color2);
 }
@@ -398,6 +402,7 @@ main .col1.text:last-child {
     flex-wrap: wrap;
     gap: 55px;
 }
+
 #business-tools .flex-n div.item-tool {
     width: calc(( 100% - 110px ) / 3);
 }
@@ -430,9 +435,9 @@ main .col1.text:last-child {
 #free .secondarymain-container .flex-n {
     align-items: flex-start;
 }
+
  #free .secondarymain-container .flex-n div.col-small {
     width: 40%;
-
 }
 
 #free .secondarymain-container .flex-n div.col-big {
@@ -444,7 +449,6 @@ main .col1.text:last-child {
 
 main section#questions {
     padding: 160px 0;
-
 }
 #questions .secondarymain-container h2 {
     padding-bottom: 75px;
@@ -455,21 +459,18 @@ main section#questions {
     align-items: center;
     padding-right: 40px;
 }
+
 /*
 --------------
 Footer--------
 --------------
 */
+
 footer {
     background-color: var(--bg-color6);
 }
-footer div.flex-n{
-    align-items: flex-start;
-    gap: 50px;
-    
-}
 
-footer .foot-container.flex-n div.foot-col {
+footer .foot-container .flex-n div.foot-col {
     width: calc(( 100% - 200px) / 5);
     color: white;
 
@@ -500,8 +501,13 @@ footer .foot-container .foot-col > a.btn-footer {
     padding-bottom: 20px;
 }
 
-footer .foot-container.flex-n {
+footer .foot-container .flex-n {
     padding: 100px 0 120px;
+}
+
+footer div.flex-n{
+    align-items: flex-start;
+    gap: 50px;
 }
 
 footer div.language .flex-n {
@@ -510,7 +516,6 @@ footer div.language .flex-n {
     color: var(--bg-color4);
     gap: 0;
     padding: 50px 0;
-    background-color: #63d275;
 }
 
 footer .language .flex-n > span {
