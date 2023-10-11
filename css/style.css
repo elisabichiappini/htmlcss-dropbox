@@ -450,17 +450,22 @@ div.offert.flex-n {
 
 div.square {
     width: calc(100vw / 3);
+    height: calc(100% / 3 );
 }
 
 #brands div.square.flex-n {
     flex-wrap: wrap;
 }
-#brands .flex-n .brand {
-    width: calc(100% / 2);
+#brands .flex-n .customer {
+    width: 50%;
+    height: 50%;
 }
+
+
+
 /*SECTION FREE*/
 
-#free {
+main section#free {
     background-color: var(--bg-color1);
     padding: 120px 0;
 }
