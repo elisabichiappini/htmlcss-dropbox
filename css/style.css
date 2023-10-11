@@ -428,9 +428,11 @@ div.offert.flex-n {
 #business-tools .flex-n div.item-tool {
     width: calc(( 100% - 110px ) / 3);
 }
+
 #business-tools .flex-n .item-tool h3 {
     margin: 20px 0 30px;
 }
+
 /*SECTION CLIENTS*/
 
 #clients .secondarymain-container div.col-big {
@@ -446,6 +448,16 @@ div.offert.flex-n {
     margin-bottom: 75px;
 }
 
+div.square {
+    width: calc(100vw / 3);
+}
+
+#brands div.square.flex-n {
+    flex-wrap: wrap;
+}
+#brands .flex-n .brand {
+    width: calc(100% / 2);
+}
 /*SECTION FREE*/
 
 #free {
