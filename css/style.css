@@ -74,9 +74,6 @@ Common--------
 --------------
 */
 
-body {
-    color: black;
-}
 
 .btn {
     all: unset;
@@ -238,6 +235,9 @@ header li img {
     padding: 0 20px;
 }
 
+li.btn > a {
+    color: var(--bg-color5);
+}
 /*
 --------------
 Main----------
