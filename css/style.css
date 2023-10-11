@@ -68,7 +68,6 @@ h5 {
     font-size: 10px;
 }
 
-
 /*
 --------------
 Common--------
@@ -472,7 +471,7 @@ footer {
 
 footer .foot-container .flex-n div.foot-col {
     width: calc(( 100% - 200px) / 5);
-    color: white;
+    color: var(--bg-color5);
 
 }
 
