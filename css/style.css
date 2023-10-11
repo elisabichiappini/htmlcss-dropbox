@@ -112,6 +112,17 @@ img {
     display: block;
 }
 
+a.btn {
+    cursor: pointer;
+}
+
+.col-small {
+    width: 30%;
+}
+
+.col-big {
+    width: 70%;
+}
 /*
 --------------
 Debug---------
@@ -194,6 +205,7 @@ header {
     right: 0;
     left: 0;
     background-color: var(--bg-color5);
+    border-bottom: 2px solid transparent;
 }
 
 .flex-sb {
@@ -208,8 +220,14 @@ header {
 
 ul > li {
     list-style-type: none;
+    border-bottom: 2px solid transparent;
 }
 
+ul > li:not(a#logo , a.btn):hover {
+    border-bottom: 2px solid var(--bg-color6);
+}
+
+li:not()
 .navbar-dx.flex-sb {
     padding: 0 20px 0 0;
 }
@@ -236,16 +254,13 @@ Main----------
     padding-top: 80px;
 }
 
-.col-small {
-    width: 24%;
-}
-
-.col-big {
-    width: 76%;
+#jumbotron .main-container .flex-n > div.col-small {
+    padding-right: 50px;
 }
 
 main .col-small .icon {
-    margin: 80px 0 23px;
+    margin: 80px 0 20px;
+    font-size: 35px;
 }
 
 main #plane span.text,
@@ -268,6 +283,11 @@ main #plane span.text,
 #plane .secondarymain-container div.preference.flex-n {
     padding: 70px 0 50px;
 }
+
+#year {
+    margin-left: 40px;
+}
+
 main .offert.flex-n {
     gap: 50px;
 }
@@ -361,15 +381,11 @@ div.offert.flex-n {
     flex-grow: 2;
 }
 
-main .col1.text:last-child {
-    flex-grow: 2;
-}
-
 .offert .col1:last-child .bottom-col .col-small {
    text-align: end;
 }
 .offert .col1:last-child .bottom-col .col-big {
-    padding-right: 150px;
+    padding-right: 50px;
 }
 
 /*SECTION PARTENER*/ 
