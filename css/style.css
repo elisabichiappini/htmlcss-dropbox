@@ -74,7 +74,6 @@ Common--------
 --------------
 */
 
-
 .btn {
     all: unset;
     display: inline-block;
@@ -192,7 +191,6 @@ body.debug {
     border: 2px dashed white;
 }
 
-
 /*
 --------------
 Header--------
@@ -244,6 +242,7 @@ header li img {
 li.btn > a {
     color: var(--bg-color5);
 }
+
 /*
 --------------
 Main----------
@@ -278,7 +277,6 @@ main #plane span.text,
 }
 
 /*SECTION PIANO BUSINESS*/
-
 
 #plane {
     padding-top: 180px;
@@ -381,6 +379,7 @@ div.offert.flex-n {
 .offert > div.bottom-col{
     height: 100%;
 }
+
 .offert.flex-n .col1.text:last-child {
     flex-grow: 2;
 }
@@ -388,6 +387,7 @@ div.offert.flex-n {
 .offert .col1:last-child .bottom-col .col-small {
    text-align: end;
 }
+
 .offert .col1:last-child .bottom-col .col-big {
     padding-right: 50px;
 }
@@ -426,6 +426,7 @@ div.offert.flex-n {
 #business-tools .secondarymain-container h2 {
     margin-bottom: 65px;
 }
+
 #business-tools .secondarymain-container .flex-n {
     flex-wrap: wrap;
     gap: 55px;
@@ -462,6 +463,7 @@ div.square {
 #brands div.square.flex-n {
     flex-wrap: wrap;
 }
+
 #brands .flex-n .customer {
     width: 50%;
     height: 50%;
@@ -563,6 +565,7 @@ main section#free {
 main section#questions {
     padding: 160px 0;
 }
+
 #questions .secondarymain-container h2 {
     padding-bottom: 75px;
 }
