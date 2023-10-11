@@ -450,7 +450,7 @@ div.offert.flex-n {
 
 #free {
     background-color: var(--bg-color1);
-    padding: 50px 0;
+    padding: 120px 0;
 }
 
 #free .secondarymain-container .flex-n div.col-big {
@@ -461,6 +461,11 @@ div.offert.flex-n {
 #free .secondarymain-container .flex-n div.col-small {
     flex-grow: 2;
     text-align: end;
+}
+
+#free .secondarymain-container .flex-n .col-small a.btn {
+    background-color: var(--bg-color5);
+    color: var(--bg-color6);
 }
 
 /*SECTION QUESTIONS*/
