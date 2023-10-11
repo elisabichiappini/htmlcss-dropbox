@@ -488,11 +488,16 @@ div.square {
 }
 
 #brands .square.bg-gray {
-    padding: 40px;
+    padding: 50px;
+}
+
+#brands div.box-text-overflow {
+    overflow: auto;
 }
 
 #brands .square.bg-gray > p {
     margin-bottom: 30px;
+    overflow-y: auto;
 }
 
 main #brands .bg-green {
@@ -539,12 +544,11 @@ main section#free {
     padding: 120px 0;
 }
 
-#free .secondarymain-container .flex-n div.col-big {
-    width: 55%;
+#free .secondarymain-container.flex-n div.col-big {
     color: var(--bg-color3);
 }
 
-#free .secondarymain-container .flex-n div.col-small {
+#free .secondarymain-container.flex-n div.col-small {
     flex-grow: 2;
     text-align: end;
 }
