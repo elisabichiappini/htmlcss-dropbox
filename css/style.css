@@ -47,21 +47,21 @@ h1 {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 h3 {
-    font-size: 17px;
+    font-size: 24px;
 }
 
 h4 {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 p, 
 a, 
 .text {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 h5 {
@@ -249,23 +249,27 @@ main .col-small .icon {
     margin: 80px 0 23px;
 }
 
-main #piano-business span.text,
+main #plane span.text,
 #jumbotron a.btn {
     margin: 35px 0 50px;
 }
 
 #jumbotron .main-container{
     position: relative;
-    bottom: -120px;
+    bottom: -105px;
 }
 
 /*SECTION PIANO BUSINESS*/
 
-#piano-business {
+
+#plane {
     padding-top: 180px;
 }
 
-main .intestation-invoice.flex-n {
+#plane .secondarymain-container div.preference.flex-n {
+    padding: 70px 0 50px;
+}
+main .offert.flex-n {
     gap: 50px;
 }
 
@@ -300,7 +304,7 @@ div.secondarymain-container .bottom-col ul li {
     padding-top: 20px;
 }
 
-section #piano-business .secondarymain-container .bottom-col .text {
+section #plane .secondarymain-container .bottom-col .text {
     margin: 20px 0 40px;
 }
 
@@ -339,19 +343,22 @@ li.flex-n > span {
     color: var(--bg-color2);
 }
 
-div.intestation-invoice > .col1 {
+div.offert > .col1 {
     border: 1px solid var(--bg-color4);
 }
 
-div.intestation-invoice .col1 > .top-col {
+div.offert .col1 > .top-col {
     border-bottom: 1px solid var(--bg-color4);
 }
 
-.intestation-invoice.flex-n {
+div.offert.flex-n {
     flex-wrap: wrap;
 }
 
-.intestation-invoice.flex-n .col1.text:last-child {
+.offert > div.bottom-col{
+    height: 100%;
+}
+.offert.flex-n .col1.text:last-child {
     flex-grow: 2;
 }
 
@@ -359,12 +366,12 @@ main .col1.text:last-child {
     flex-grow: 2;
 }
 
-.intestation-invoice .col1:last-child .bottom-col .col-small {
+.offert .col1:last-child .bottom-col .col-small {
    text-align: end;
 }
-.intestation-invoice .col1:last-child .bottom-col .col-big {
+.offert .col1:last-child .bottom-col .col-big {
     padding-right: 150px;
- }
+}
 
 /*SECTION PARTENER*/ 
 
@@ -406,7 +413,7 @@ main .col1.text:last-child {
     width: calc(( 100% - 110px ) / 3);
 }
 
-/*SECTION BUSINESS PLUS*/
+/*SECTION CLIENTS*/
 
 #clients .secondarymain-container div.col-big {
     width: 50%;
@@ -420,9 +427,8 @@ main .col1.text:last-child {
     margin-bottom: 75px;
 }
 
-/*SECTION BRANDS*/
-
 /*SECTION FREE*/
+
 #free {
     background-color: var(--bg-color1);
     padding: 50px 0;
@@ -472,7 +478,6 @@ footer {
 footer .foot-container .flex-n div.foot-col {
     width: calc(( 100% - 200px) / 5);
     color: var(--bg-color5);
-
 }
 
 footer #foot-container .foot-col {

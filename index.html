@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- /collegamento css fogli di stile-->
 </head>
-<body>
+<body class="debug">
     <!-- header: navbar -->
     <header id="head-container">
         <!-- header top-->
@@ -73,7 +73,7 @@
                     <!-- box: testo -->
                     <div class="col-small">
                         <p class="text">Finalmente tutti i tuoi sentimenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicure: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
-                        <a href="#" target="_blank" class="btn">Inizia la prova gratuita</a>
+                        <a href="#" target="_blank" class="btn">Inizia la prova tua gratuita</a>
                         <span class="text">Annulla in qualsiasi momento</span>
                         <div class="icon"><i class="fa-solid fa-arrow-down"></i></div>
                     </div>
@@ -90,16 +90,17 @@
         <!-- /sezione jumbotron -->
 
         <!-- sezione piano business -->
-        <section id="piano-business">
+        <section id="plane">
             <div class="secondarymain-container">
-                <h2>Trova il tuo piano business che fa per te</h2>
-                <!-- to do radio button-->
-                <div class="flex-n">
-                    <div>Fatturazione mensile</div>
-                    <div>Fatturazione annuale </div>
+                <h2>Trova il piano business che fa per te</h2>
+                <!-- radio button preference-->
+                <div class="preference flex-n">
+                    <input type="radio" name="sub-invoice" value="month" id="month" class="radio-btn"><label for="month">Fatturazione mensile</label></input>
+                    <input type="radio" name="sub-invoice" value="year" id="year" class="radio-btn"><label for="year">Fatturazione annuale</label></input>
                 </div>
-                <!-- /to do radio button-->
-                <div class="intestation-invoice flex-n">
+                <!-- /radio button preference-->
+                <!-- /offert preference-->
+                <div class="offert flex-n">
                     <div class="col1 text">
                         <div class="top-col">
                             <i class="fa-solid fa-user"></i> Singolo
