@@ -173,6 +173,16 @@ body.debug {
     background-color: aliceblue;
 }
 
+.debug #clients #brands div.square {
+    background-color: rgb(214, 130, 172);
+    border: 2px dashed black;
+}
+
+.debug #clients #brands .square div.customer {
+    background-color: rgb(130, 133, 214);
+    border: 2px dashed black;
+}
+
 .debug #business-tools .item-tool {
     background-color: blueviolet;
     border: 2px dashed white;
@@ -186,6 +196,7 @@ body.debug {
     background-color: #63d275;
     border: 2px dashed white;
 }
+
 
 /*
 --------------
@@ -386,7 +397,7 @@ div.offert.flex-n {
     padding-right: 50px;
 }
 
-/*SECTION PARTENER*/ 
+/*SECTION PARTNER*/ 
 
 #partner .col-big {
     width: 600px;
@@ -449,8 +460,8 @@ div.offert.flex-n {
 }
 
 div.square {
-    width: calc(100vw / 3);
-    height: calc(100% / 3 );
+    width: calc(100% / 3);
+    height: calc(100vw / 3 );
 }
 
 #brands div.square.flex-n {
@@ -459,10 +470,20 @@ div.square {
 #brands .flex-n .customer {
     width: 50%;
     height: 50%;
+    position: relative;
 }
 
+#brands .square .customer img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
-
+main #brands .bg-green {
+    background-color: #A2D39B;
+}
 /*SECTION FREE*/
 
 main section#free {
