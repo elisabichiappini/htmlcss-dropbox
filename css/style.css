@@ -434,11 +434,12 @@ div.offert.flex-n {
 /*SECTION CLIENTS*/
 
 #clients .secondarymain-container div.col-big {
-    width: 50%;
+    width: 100%;
+    padding-right: 40%;
 }
 
 #clients .secondarymain-container {
-    padding: 210px 0 150px;
+    padding: 160px 0 130px;
 }
 
 #clients .secondarymain-container .col-big > h2 {
@@ -451,20 +452,14 @@ div.offert.flex-n {
     background-color: var(--bg-color1);
     padding: 50px 0;
 }
-#free .col1 .col-small {
-    text-align: end;
- }
-
-#free .secondarymain-container .flex-n {
-    align-items: flex-start;
-}
-
- #free .secondarymain-container .flex-n div.col-small {
-    width: 40%;
-}
 
 #free .secondarymain-container .flex-n div.col-big {
-    width: 60%;
+    width: 55%;
+    color: var(--bg-color3);
+}
+
+#free .secondarymain-container .flex-n div.col-small {
+    flex-grow: 2;
     text-align: end;
 }
 
