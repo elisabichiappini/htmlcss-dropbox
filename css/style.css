@@ -622,7 +622,7 @@ footer div.flex-n{
     gap: 50px;
 }
 
-footer div.language .flex-n {
+footer #footer-bottom .language div.flex-n {
     align-items: center;
     line-height: 100%;
     color: var(--bg-color4);
