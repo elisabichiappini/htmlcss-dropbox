@@ -205,7 +205,6 @@ header {
     right: 0;
     left: 0;
     background-color: var(--bg-color5);
-
 }
 
 .flex-sb {
@@ -250,7 +249,7 @@ Main----------
 #jumbotron {
     background-color: var(--bg-color1);
     margin-top: 0;
-    padding-top: 80px;
+    padding-top: 110px;
 }
 
 #jumbotron .main-container .flex-n > div.col-small {
@@ -416,8 +415,11 @@ div.offert.flex-n {
     padding: 60px 50px 0;
 }
 
-/*SECTION BUSINESS PLUS*/ 
+/*SECTION BUSINESS TOOLS*/ 
 
+#business-tools .secondarymain-container h2 {
+    margin-bottom: 65px;
+}
 #business-tools .secondarymain-container .flex-n {
     flex-wrap: wrap;
     gap: 55px;
@@ -426,7 +428,9 @@ div.offert.flex-n {
 #business-tools .flex-n div.item-tool {
     width: calc(( 100% - 110px ) / 3);
 }
-
+#business-tools .flex-n .item-tool h3 {
+    margin: 20px 0 30px;
+}
 /*SECTION CLIENTS*/
 
 #clients .secondarymain-container div.col-big {
