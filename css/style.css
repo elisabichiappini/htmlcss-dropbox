@@ -205,7 +205,7 @@ header {
     right: 0;
     left: 0;
     background-color: var(--bg-color5);
-    border-bottom: 2px solid transparent;
+
 }
 
 .flex-sb {
@@ -223,11 +223,10 @@ ul > li {
     border-bottom: 2px solid transparent;
 }
 
-ul > li:not(a#logo , a.btn):hover {
+ul > li:not(#logo):not(.btn):hover {
     border-bottom: 2px solid var(--bg-color6);
 }
 
-li:not()
 .navbar-dx.flex-sb {
     padding: 0 20px 0 0;
 }
