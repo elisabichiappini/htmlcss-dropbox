@@ -223,7 +223,7 @@ ul > li {
     border-bottom: 2px solid transparent;
 }
 
-ul > li:not(#logo):not(.btn):hover {
+#head-container ul > li:not(#logo):not(.btn):hover {
     border-bottom: 2px solid var(--bg-color6);
 }
 
@@ -553,6 +553,7 @@ main section#free {
 #free .secondarymain-container.flex-n div.col-small {
     flex-grow: 2;
     text-align: end;
+    padding-top: 15px;
 }
 
 #free .secondarymain-container .flex-n .col-small a.btn {
